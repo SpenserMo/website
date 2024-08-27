@@ -1,0 +1,27 @@
+ .Navbar-container {
+    display: flex;
+    justify-content: space-around;
+    padding: calc(5px + 1vmin);
+ }
+
+ .Navbar-button {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border: none;
+    color: black;
+    padding: calc(5px + 1vmin) calc(8px + 1vmin);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(12px + 0.5vmin);
+    font-weight: bold;
+    margin: calc(4px + 0.5vmin) calc(2px + 0.5vmin);
+    cursor: pointer;
+    border-radius: calc(8px + 1vmin);
+    box-shadow: 0 calc(4px + 0.5vmin) calc(8px + 1vmin) rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease 0s;
+  }
+  
+  .Navbar-button:hover {
+    box-shadow: 0 calc(8px + 1vmin) calc(16px + 2vmin) rgba(0, 0, 0, 0.3);
+    transform: translateY(calc(-2px - 0.2vmin));
+  }

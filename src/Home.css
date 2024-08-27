@@ -1,0 +1,55 @@
+
+  .Home-container {
+    background-image: url('./asset/pics/IMG_3254.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Home-header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(15px + 2vmin);
+    color: black;
+    margin-top: 3%;
+    margin-left: 6%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .Home-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-size: calc(5px + 1vmin);
+    color: black;
+    margin-top: 1%;
+    margin-left: 6%;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .Home-footer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: calc(5px + 1vmin);
+  }
+  
+  .Home-footer a {
+    margin: 2%;
+    color: #4169E1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: calc(8px + 1vmin);
+    transition: color 0.3s ease;
+  }
+  
+  .Home-footer a:hover {
+    color: #0B2545;
+  }
