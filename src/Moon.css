@@ -52,3 +52,19 @@
     font-size: calc(10px + 1vmin);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+
+  @media (max-width: 768px) {
+    .Moon-content-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .Moon-content-image {
+        margin-right: 0;
+        margin-bottom: calc(20px + 1vmin);
+    }
+    
+    .Moon-content-text {
+        font-size: calc(12px + 1vmin);
+    }
+  }
