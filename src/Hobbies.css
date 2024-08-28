@@ -13,6 +13,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
   }
 
   .Hobbies-header-text {
@@ -28,6 +30,7 @@
     display: grid;
     grid-template-columns: 1fr;
     margin: 2%;
+    padding-bottom: 5%;
   }
   
   .Hobbies-content-item {
@@ -37,7 +40,7 @@
   }
   
   .Hobbies-content-image {
-    width: calc(400px + 1vmin);
+    width: calc(200px + 10vmin);
     height: auto;
     margin-right: calc(100px + 2vmin);
     border-radius: 2%;

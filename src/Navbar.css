@@ -5,9 +5,9 @@
  }
 
  .Navbar-button {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: transparent;
     border: none;
-    color: black;
+    color: white;
     padding: calc(5px + 1vmin) calc(8px + 1vmin);
     text-align: center;
     text-decoration: none;
@@ -17,7 +17,6 @@
     margin: calc(4px + 0.5vmin) calc(2px + 0.5vmin);
     cursor: pointer;
     border-radius: calc(8px + 1vmin);
-    box-shadow: 0 calc(4px + 0.5vmin) calc(8px + 1vmin) rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease 0s;
   }
   

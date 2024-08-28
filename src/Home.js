@@ -7,8 +7,8 @@ function Home() {
   return (
     <div className="Home-container">
       <Navbar />
-      <header className="Home-header">Spenser Mo</header>
-      <p className="Home-content">Welcome to my page</p>
+      <header className="Home-header">SPENSER MO</header>
+      <p className="Home-content"></p>
       <footer className="Home-footer">
         <a
           href="https://github.com/SpenserMo"

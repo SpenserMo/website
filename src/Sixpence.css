@@ -13,6 +13,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
   }
 
   .Sixpence-header-text {
@@ -28,6 +30,8 @@
     display: grid;
     grid-template-columns: 1fr;
     margin: 2%;
+    gap: calc(20px + 1vmin);
+    padding-bottom: 5%;
   }
   
   .Sixpence-content-item {
@@ -37,9 +41,9 @@
   }
   
   .Sixpence-content-image {
-    width: calc(300px + 1vmin);
+    width: calc(200px + 10vmin);
     height: auto;
-    margin-right: calc(100px + 2vmin);
+    margin-right: calc(60px + 2vmin);
     border-radius: 2%;
     box-shadow: calc(5px + 0.5vmin) calc(4px + 0.5vmin) calc(8px + 0.5vmin) rgba(0, 0, 0, 0.2);
   }
